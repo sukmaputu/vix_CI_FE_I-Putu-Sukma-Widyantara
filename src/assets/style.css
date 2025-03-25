@@ -1,0 +1,41 @@
+:root {
+    --primary: #007bff;
+    --secondary: #0056b3;
+    --men-bg: #87ceeb;
+    --women-bg: #ffb6c1;
+    --unavailable-bg: #d3d3d3;
+    --text-color: #333;
+  }
+  
+  .page-men {
+    background-color: var(--men-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 50%;
+  }
+  
+  .page-women {
+    background-color: var(--women-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .page-unavailable {
+    background-color: var(--unavailable-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
